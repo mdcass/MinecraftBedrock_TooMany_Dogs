@@ -5,7 +5,8 @@
       "description": "Logic for the Too Many Dogs addon",
       "uuid": "5195f761-4fac-419c-b248-b5e6fee15818",
       "version": [1, 0, 0],
-      "min_engine_version": [1, 20, 0]
+      "min_engine_version": [1, 20, 0],
+      "pack_icon": "pack_icon.png"
     },
     "modules": [
       {
@@ -21,4 +22,3 @@
       }
     ]
   }
-  

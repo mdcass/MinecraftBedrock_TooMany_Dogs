@@ -1,0 +1,12 @@
+{
+    "resource_pack_name": "packet",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "chew_toy": { "textures": "textures/items/chew_toy" },
+        "dog_bed": { "textures": "textures/items/dog_bed" },
+        "fancy_collar": { "textures": "textures/items/fancy_collar" },
+        "trainer_hat": { "textures": "textures/items/trainer_hat" },
+        "water_bowl":  { "textures": "textures/items/water_bowl" }
+    }
+}
+  

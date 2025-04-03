@@ -1,0 +1,21 @@
+{
+    "format_version": "1.21.70",
+    "minecraft:item": {
+        "description": {
+            "identifier": "tmd:chew_toy",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "chew_toy"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "Chew Toy"
+            }
+        }
+    }
+}
