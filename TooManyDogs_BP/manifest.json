@@ -1,0 +1,24 @@
+{
+    "format_version": 2,
+    "header": {
+      "name": "Too Many Dogs Behavior Pack",
+      "description": "Logic for the Too Many Dogs addon",
+      "uuid": "5195f761-4fac-419c-b248-b5e6fee15818",
+      "version": [1, 0, 0],
+      "min_engine_version": [1, 20, 0]
+    },
+    "modules": [
+      {
+        "type": "data", 
+        "uuid": "eaca2f4e-dd2c-4923-98f2-133f39660368",
+        "version": [1, 0, 0]
+      }
+    ],
+    "dependencies": [
+      {
+        "uuid": "cf3e3bbc-64a5-4aa0-891e-0cfa8cac97b6",
+        "version": [1, 0, 0]
+      }
+    ]
+  }
+  

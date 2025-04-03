@@ -1,1 +1,2 @@
-# MinecraftBedrock_TooMany_Dogs
+# Minecraft Bedrock Add-on - Too Many Dogs
+
