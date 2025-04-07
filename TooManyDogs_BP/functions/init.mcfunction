@@ -1,0 +1,3 @@
+function setup_scoreboard
+function reset_woofington
+function spawn_woofington

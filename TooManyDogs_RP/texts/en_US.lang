@@ -3,4 +3,4 @@ item.tmd.dog_bed.name=Plush Dog Bed
 item.tmd.fancy_collar.name=Sir Barkley’s Fancy Collar
 item.tmd.trainer_hat.name=Honorary Dog Trainer Hat
 item.tmd.water_bowl.name=Shiny Water Bowl
-entity.woofington.name=Woofington
+entity.tmd:woofington.name=Woofington McBark
