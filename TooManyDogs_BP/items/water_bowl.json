@@ -14,7 +14,7 @@
                 }
             },
             "minecraft:display_name": {
-                "value": "Water Bowl"
+                "value": "item.tmd.water_bowl.name"
             }
         }
     }

@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "tmd:woofington",
+        "materials": { "default": "entity_alphatest" },
+        "textures": { "default": "textures/entity/villager/librarian" },
+        "geometry": { "default": "geometry.villager_v2" },
+        "render_controllers": [ "controller.render.default" ]
+      }
+    }
+  }
+  

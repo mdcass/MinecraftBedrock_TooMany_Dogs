@@ -14,7 +14,7 @@
                 }
             },
             "minecraft:display_name": {
-                "value": "Fancy Collar"
+                "value": "item.tmd.fancy_collar.name"
             }
         }
     }

@@ -14,7 +14,7 @@
                 }
             },
             "minecraft:display_name": {
-                "value": "Dog Bed"
+                "value": "item.tmd.dog_bed.name"
             }
         }
     }

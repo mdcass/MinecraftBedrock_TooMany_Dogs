@@ -1,5 +1,9 @@
 # Minecraft Bedrock Add-on - Too Many Dogs
 
+## Notes
+
+* Cheats are required to be on within the world to use commands
+
 ## Local development
 
 Minecraft does not support symlinks to development directories.

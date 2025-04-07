@@ -14,7 +14,7 @@
                 }
             },
             "minecraft:display_name": {
-                "value": "Trainer Hat"
+                "value": "item.tmd.trainer_hat.name"
             }
         }
     }

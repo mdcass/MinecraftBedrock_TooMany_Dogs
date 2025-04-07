@@ -14,7 +14,7 @@
                 }
             },
             "minecraft:display_name": {
-                "value": "Chew Toy"
+                "value": "item.tmd.chew_toy_bone.name"
             }
         }
     }
