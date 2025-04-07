@@ -8,6 +8,7 @@
         "is_experimental": false
       },
       "components": {
+        "minecraft:movement.basic": {},
         "minecraft:type_family": { "family": ["npc", "villager"] },
         "minecraft:nameable": {
           "allow_name_tag_renaming": false,
@@ -38,7 +39,7 @@
             {
               "queue_command": {
                 "target": "self",
-                "command": "function tmd:woof_interact_handler"
+                "command": "function tmp"
               }
             }
           ]
