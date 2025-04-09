@@ -19,11 +19,35 @@ Currently this development has no world to load, so one needs to be setup. This 
 * Research and implement a consistent World
 * Record the script
 
-### General learnings
+### Implementation
+
+#### Interaction handlers
+
+_Expand_
+
+#### Function chaining
+
+Functions are executed within one `tick` and "variables" are tracked using Minecraft's `scoreboard` functionality.
+
+As an example for some dialogue interaction, on a high level, we need to:
+
+Initialise a scoreboard entry
+
+```
+scoreboard objectives add woofington_dialogue_stage dummy "Woofington Dialogue Progress"
+```
+
+Then execute chained functions from that (typically through an interaction handler first based on higher level scoreboard entries, e.g. quest_scenes)
+
+```
+execute if score @s woofington_dialogue_stage matches 0 run say "Hi there" # we match here, so is output
+execute if score @s woofington_dialogue_stage matches 1.. run function scene_1_the_agreement/dialogue/woofington_1 # we only run the next function for the next increment or higher
+execute if score @s woofington_dialogue_stage matches 0 run scoreboard players add @s woofington_dialogue_stage 1 # increment the scoreboard entry
+```
 
 ### Gotchas
 
-* If there is a syntax error in a functions file, it will not show up when running the command `/function ...` within Minecraft
+* Log files must be switched on under Main Menu -> Settings -> Creator, however at the time of writing they're not actually being written.
 
 ## Local development
 

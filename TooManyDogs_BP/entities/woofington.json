@@ -39,7 +39,7 @@
             {
               "queue_command": {
                 "target": "self",
-                "command": "function tmp"
+                "command": "function entity_handlers/woof_interact_handler"
               }
             }
           ]
