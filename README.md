@@ -11,14 +11,6 @@ Currently this development has no world to load, so one needs to be setup. This 
 
 ## Development
 
-### To Do
-
-* Implement on-click dialogue
-    * Will need to have a dialogue reference file as a starting point
-* Implement the dialogue files for all characters to create the coherent story
-* Research and implement a consistent World
-* Record the script
-
 ### Implementation
 
 #### Interaction handlers
@@ -48,6 +40,7 @@ execute if score @s woofington_dialogue_stage matches 0 run scoreboard players a
 ### Gotchas
 
 * Log files must be switched on under Main Menu -> Settings -> Creator, however at the time of writing they're not actually being written.
+* There's something really weird going on between the "scene switch" whereby the scoreboard item for Woofington's dialogue is being incremented. Could do with some xDebug style debugging
 
 ## Local development
 

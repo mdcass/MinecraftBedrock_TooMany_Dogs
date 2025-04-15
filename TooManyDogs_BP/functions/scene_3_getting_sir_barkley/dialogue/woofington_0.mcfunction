@@ -1,0 +1,3 @@
+execute if score @s woofington_dialogue_stage matches 1 run say "OH MY DOGGY GOODNESS! You've done it! Yes, yes, this will do nicely! Sir Barkley will be DELIGHTED! AWOOOO!"
+execute if score @s woofington_dialogue_stage matches 2.. run function scene_3_getting_sir_barkley/dialogue/woofington_1
+execute if score @s woofington_dialogue_stage matches 1 run scoreboard players add @s woofington_dialogue_stage 1
