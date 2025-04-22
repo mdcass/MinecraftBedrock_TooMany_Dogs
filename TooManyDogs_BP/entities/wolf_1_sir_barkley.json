@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:entity": {
+      "description": {
+        "identifier": "tmd:wolf_1_sir_barkley",
+        "is_spawnable": true,
+        "is_summonable": true,
+        "is_experimental": false
+      },
+      "components": {
+        "minecraft:movement.basic": {
+            "max_turn": 30
+        },
+        "minecraft:type_family": { "family": ["wolf"] },
+        "minecraft:nameable": {
+          "allow_name_tag_renaming": false,
+          "always_show": true
+        },
+        "minecraft:health": { "value": 20, "max": 20 },
+        "minecraft:navigation.walk": { "can_path_over_water": true }
+        }
+    }
+}
