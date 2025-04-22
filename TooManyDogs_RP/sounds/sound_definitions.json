@@ -1,0 +1,37 @@
+{
+    "format_version" : "1.20.20",
+    "sound_definitions" : {
+       "tmd.scene_1_the_agreement.woofington_0" : {
+          "category" : "ambient",
+          "max_distance" : null,
+          "min_distance" : null,
+          "sounds" : [
+            "sounds/scene_1_the_agreement/scene_1_woofington_0"
+          ]
+       },
+       "tmd.scene_1_the_agreement.woofington_1" : {
+          "category" : "ambient",
+          "max_distance" : null,
+          "min_distance" : null,
+          "sounds" : [
+            "sounds/scene_1_the_agreement/scene_1_woofington_1"
+          ]
+       },
+       "tmd.scene_1_the_agreement.woofington_2" : {
+          "category" : "ambient",
+          "max_distance" : null,
+          "min_distance" : null,
+          "sounds" : [
+            "sounds/scene_1_the_agreement/scene_1_woofington_2"
+          ]
+       },
+       "tmd.scene_1_the_agreement.woofington_3" : {
+          "category" : "ambient",
+          "max_distance" : null,
+          "min_distance" : null,
+          "sounds" : [
+            "sounds/scene_1_the_agreement/scene_1_woofington_3"
+          ]
+       }
+    }
+}

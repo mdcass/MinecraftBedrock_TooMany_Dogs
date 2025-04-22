@@ -1,4 +1,5 @@
 execute if score @s woofington_dialogue_stage matches 3 run say "SPLENDID! I knew I could smell a dog lover from a mile away! Here's some materials to get you started. Come back when you've built something WORTHY of Sir Barkley's magnificence!"
+# execute if score @s woofington_dialogue_stage matches 3 run playsound tmd.scene_1_the_agreement.woofington_3 @p
 execute if score @s woofington_dialogue_stage matches 3 run give @p minecraft:oak_fence 16
 execute if score @s woofington_dialogue_stage matches 3 run give @p minecraft:dark_oak_fence_gate 1
 execute if score @s woofington_dialogue_stage matches 3 run give @p minecraft:oak_planks 10

@@ -44,6 +44,6 @@ execute if score @s woofington_dialogue_stage matches 0 run scoreboard players a
 
 ## Local development
 
-Minecraft does not support symlinks to development directories.
+Minecraft does not support symlinks to development directories. Instead run the `./sync_packs.bat` script to move the directories to where they need to be.
 
-Instead run the `./sync_packs.bat` script to move the directories to where they need to be.
+Run `function init` to start. Run `scoreboard objectives list` to see scoreboard values.
